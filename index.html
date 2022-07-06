@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="" id="utilities">
+        <p>Currsor</p>
+        <input type="radio" name="utility" value="cursor" checked>
+        <p>Pensil</p>
+        <input type="radio" name="utility" value="pencil">
+        <p>Eraser</p>
+        <input type="radio" name="utility" value="eraser">
+        <!-- <p>Rectangle</p>
+        <input type="radio" name="utility" value="rectangle">
+        <p>Circle</p>
+        <input type="radio" name="utility" value="circle"> -->
+        <p>Clear</p>
+        <input type="radio" name="utility" value="clear">
+        <p>Weight</p>
+        <input type="number" name="width" value="1" min="1" max="25" style="width: 50px; height: 30px; font-size: large;">
+        <p>Color</p>
+        <input  id="color" type="color" name="color">
+    </form>
+    <canvas id="my-canvas" width="700" height="500"></canvas>
+    <script src="js/script.js"></script>
+</body>
+</html>
