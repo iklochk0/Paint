@@ -1,0 +1,45 @@
+* {
+    margin: 0 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#utilities {
+    position: relative;
+    text-align: center;
+    float: left;
+    width: auto;
+    height: 500px;
+    padding: 4px 8px;
+    background-color: wheat;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#my-canvas {
+    background-color: white;
+    border-right: 1px dotted black;
+    border-bottom: 1px dotted black;
+    padding: 4px 8px;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.pencil:hover {
+    cursor: url(../ico/pencil.png) 4 12, auto;
+}
+
+.eraser:hover {
+    cursor: url(../ico/eraser.png) 4 12, auto;
+}
+
+.none:hover {
+    cursor: auto;
+}
